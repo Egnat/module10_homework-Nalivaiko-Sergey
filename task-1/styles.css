@@ -1,0 +1,32 @@
+.btn {
+display: flex;
+justify-content: space-around;
+position: absolute;
+width: 210px;
+height: 49px;
+top: 75px;
+padding-top: 14px;
+border: none;
+outline: none;
+background: #315efb;
+color: white;
+cursor: pointer;
+transition: 0.3s;
+font-size: 21px;
+text-transform: uppercase;
+}
+
+.btn:hover {
+border: 2px solid #7a1616cf;
+transform: scale(1.05);
+}
+  
+.btn_icon {
+font-size: 22px;
+}
+
+.btn--magic .btn_icon {
+animation-duration: 1s;  
+animation-name: magic;
+animation-iteration-count: infinite;
+}
